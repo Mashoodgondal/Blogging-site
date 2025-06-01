@@ -58,8 +58,8 @@ const NaveBar = () => {
                                     Contect
                                 </a>
                             </li>
-                            <button className="bg-gray-400">Signup</button>
-                            <button className="bg-gray-400">Login</button>
+                            <button className="bg-gray-400 py-1 px-3 rounded-lg">Signup</button>
+                            <button className="bg-gray-400 px-3 py-1 rounded-lg">Login</button>
 
                         </ul>
                         {!nav ? (<div onClick={handleNave} className="md:hidden cursor-pointer">
@@ -81,20 +81,7 @@ const NaveBar = () => {
                         : "fixed left-[-100%] p-10 ease-in duration-1000"
                         }`}
                 >
-                    {/* <div className=" p-8    flex item-center justify-between"> */}
-                    {/* <div>
-                            <a href="#" className="text-yellow-500 text-3xl font-bold">
-                                Port<span className="text-indigo-600">folio</span>
-                                <span className="text-yellow-500 text-4xl">.</span>
-                            </a>
-                        </div> */}
-                    {/* <div
-                            onClick={handleNave}
-                            className=" rounded-full  cursor-pointer"
-                        >
-                            <RiCloseCircleFill size={35} />
-                        </div> */}
-                    {/* </div> */}
+
                     <ul className="flex flex-col uppercase space-y-2 mt-12 font-bold text-gray-600 ml-8 ">
                         <li>
                             <a

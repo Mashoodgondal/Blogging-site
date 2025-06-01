@@ -8,58 +8,7 @@ export default function Home() {
       <hr></hr>
       <h2>Ali</h2>
       <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
-      var <h1> Ali </h1>
-      <hr></hr>
-      <h2>Ali</h2>
-      <hr></hr>
+
     </div>
   );
 }
