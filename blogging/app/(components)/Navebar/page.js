@@ -12,7 +12,7 @@ const NaveBar = () => {
     };
     return (
         <div >
-            <nav className="  sticky  shadow-sm ">
+            <nav className="fixed top-0 w-full z-50 bg-white shadow-sm border-b">
                 <div className="max-w-screen-xl flex justify-between px-4 py-3 mx-auto">
                     <div>
                         <a href="#" className="text-indigo-600 text-3xl font-bold">
@@ -22,7 +22,7 @@ const NaveBar = () => {
                     </div>
 
                     <div className="flex items-center justify-center ">
-                        <ul className=" hidden md:flex flex-row font-bold mt-0 space-x-12 rtl:space-x-reverse text-sm">
+                        <ul className=" hidden md:flex flex-row font-bold uppercase mt-0 space-x-12 rtl:space-x-reverse text-sm">
                             <li>
                                 <a
                                     href="home"
@@ -34,20 +34,22 @@ const NaveBar = () => {
                             </li>
                             <li>
                                 <a
+                                    href="home"
+                                    className="text-indigo-600 hover:text-yellow-500 hover:border-b hover:border-yellow-500"
+                                    aria-current="page"
+                                >
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a
                                     href="about"
                                     className="text-indigo-600 hover:text-yellow-500 hover:border-b hover:border-yellow-500"
                                 >
                                     ABOUT
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    href="projects"
-                                    className="text-indigo-600 hover:text-yellow-500 hover:border-b hover:border-yellow-500"
-                                >
-                                    PROJECTS
-                                </a>
-                            </li>
+
                             <li>
                                 <a
                                     href="contact"
@@ -56,6 +58,8 @@ const NaveBar = () => {
                                     Contect
                                 </a>
                             </li>
+                            <button className="bg-gray-400">Signup</button>
+                            <button className="bg-gray-400">Login</button>
 
                         </ul>
                         {!nav ? (<div onClick={handleNave} className="md:hidden cursor-pointer">
@@ -91,7 +95,7 @@ const NaveBar = () => {
                             <RiCloseCircleFill size={35} />
                         </div> */}
                     {/* </div> */}
-                    <ul className="flex flex-col uppercase space-y-2 mt-6 font-bold text-gray-600 ml-8 ">
+                    <ul className="flex flex-col uppercase space-y-2 mt-12 font-bold text-gray-600 ml-8 ">
                         <li>
                             <a
                                 href="#"
@@ -105,15 +109,7 @@ const NaveBar = () => {
                                 href="#"
                                 className="text-indigo-600 hover:text-yellow-600 hover:border-b hover:border-yellow-500  "
                             >
-                                ABOUT
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                className="text-indigo-600 hover:text-yellow-600 hover:border-b hover:border-yellow-500   "
-                            >
-                                PROJECTS
+                                BLOG
                             </a>
                         </li>
                         <li>
@@ -121,10 +117,20 @@ const NaveBar = () => {
                                 href="#"
                                 className="text-indigo-600 hover:text-yellow-600 hover:border-b hover:border-yellow-500  "
                             >
-                                CONTECT
+                                ABOUT
                             </a>
                         </li>
 
+                        <li>
+                            <a
+                                href="#"
+                                className="text-indigo-600 hover:text-yellow-600 hover:border-b hover:border-yellow-500  "
+                            >
+                                COUNTECT
+                            </a>
+                        </li>
+                        <button className="bg-gray-400">Signup</button>
+                        <button className="bg-gray-400">Login</button>
 
                     </ul>
                 </div>
